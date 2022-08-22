@@ -1,6 +1,6 @@
 /***********************tag selectors****************************/
 body {
-  background-image: url("C:/Users/bobo1/Desktop/WEBDEVELOPMENT/GITHUB/front end dev challenges/Huddle landing page with a single introductory section/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+  background-image: url("bg-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
