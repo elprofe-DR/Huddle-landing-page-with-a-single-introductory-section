@@ -1,0 +1,133 @@
+/***********************tag selectors****************************/
+body {
+  background-image: url("C:/Users/bobo1/Desktop/WEBDEVELOPMENT/GITHUB/front end dev challenges/Huddle landing page with a single introductory section/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+  min-height: 100vh;
+  padding: 2.1875rem 1.875rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+}
+main {
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  padding-left: 40px;
+  line-height: 3.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding-bottom: 25px;
+  font-size: 2.3rem;
+}
+p {
+  padding-bottom: 10px;
+
+}
+a {
+  color: #bbe06c;
+}
+a:hover {
+  color: #f87d09;
+}
+/***********************class selectors**************************/
+.body {
+padding: 50px 50px 50px;
+display: flex;
+vertical-align: 50%;
+display: inline-block;
+}
+.brandlog {
+  width: 130px;
+}
+.nvbar-brand-header {
+  display: inline-flex;
+  text-align: center;
+  display: flex;
+  padding: 20px 50px;
+}
+/*this is the padding of the image of the brand*/
+.container-fluid {
+  padding-left: 0;
+}
+/*this is the padding of the image of the brand*/
+.body-image {
+  width: 370px;
+  float: left;
+  padding-top: 30px;
+}
+/*this display mode allows me to modify the padding and marging of some
+otherwise unchangable elements*/
+.body-header {
+  display: table-row;
+}
+/*this display mode allows me to modify the padding and marging of some
+otherwise unchangable elements*/
+.body-txt {
+  padding-left: 40px;
+  padding-right: 10px;
+  font-size: 16.5px;
+  font-family: 'Poppins', sans-serif;
+}
+.btn {
+  width: 130px;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.1rem;
+  height: 3.5rem;
+}
+.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+.row {
+  text-align: right;
+}
+.col- {
+}
+.fa-brands {
+  color: #fff;
+  border: solid;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+  font-size: 18px;
+  vertical-align: text-top;
+}
+.attribution {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/***********************ID selectors*****************************/
+
+/***********************IMGES*************************************/
+
+/*********************@MEDIA QUERIES*****************************/
+@media screen and (max-width: 780px) {
+  .body {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .btn {
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  }
+
+  .row {
+    padding-left: 35px;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/*********************RESPONSIVE @MQUERY*************************/
